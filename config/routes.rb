@@ -3,6 +3,7 @@ WomanNeverGiveUp::Application.routes.draw do
   get "static_paged/home"
 
   get "static_paged/help"
+  get "static_paged/about"
 
   resources :microposts
 
