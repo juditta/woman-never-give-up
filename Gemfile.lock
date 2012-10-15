@@ -108,7 +108,10 @@ GEM
       activesupport (>= 3.0)
       railties (>= 3.0)
       rspec (~> 2.11.0)
+<<<<<<< HEAD
     rubyzip (0.9.9)
+=======
+>>>>>>> master
     sass (3.2.1)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
@@ -145,7 +148,11 @@ DEPENDENCIES
   jquery-rails (= 2.0.2)
   pg (= 0.12.2)
   rails (= 3.2.8)
+<<<<<<< HEAD
   rspec-rails (= 2.11.0)
+=======
+  rspec-rails
+>>>>>>> master
   sass-rails (~> 3.2.5)
   sqlite3 (= 1.3.5)
   uglifier (>= 1.2.3)
