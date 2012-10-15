@@ -1,4 +1,13 @@
 WomanNeverGiveUp::Application.routes.draw do
+ 
+  get "static_paged/home"
+
+  get "static_paged/help"
+
+  resources :microposts
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
