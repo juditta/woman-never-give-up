@@ -7,4 +7,7 @@ class StaticPagedController < ApplicationController
 
   def about
   end
+
+  def contact
+  end
 end
