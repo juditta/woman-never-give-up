@@ -1,6 +1,10 @@
 WomanNeverGiveUp::Application.routes.draw do
  
+  get "users/new"
+
   root :to => 'static_paged#home'
+
+  match '/signup', to: 'users#new'
  
   match '/help', to: 'static_paged#help'
   match '/about', to: 'static_paged#about'
