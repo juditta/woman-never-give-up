@@ -1,13 +1,12 @@
 WomanNeverGiveUp::Application.routes.draw do
  
-  get "static_paged/home"
-
-  get "static_paged/help"
-  get "static_paged/about"
-  get "static_paged/contact"
+  root :to => 'static_paged#home'
+ 
+  match '/help', to: 'static_paged#help'
+  match '/about', to: 'static_paged#about'
+  match '/contact', to: 'static_paged#contact'
 
   resources :microposts
-
   resources :users
 
   # The priority is based upon order of creation:
